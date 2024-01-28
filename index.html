@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-widht, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+        <script src="https://kit.fontawesome.com/2442f35de5.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div class="images" class="shape">
+        <img src="shape2.png" id="shape1">
+        <img src="avatar 2.png" id="girl1"  class="girl">
+
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="new2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#education1">EDUCATION</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contactme">CONTACT ME</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hi, I'm <span>Soundarya</span> <br> From Tirupur</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about2.2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p class="para">I am an MCA student with a comprehensive understanding of various frontend technologies. What sets me apart is not only my proficiency in existing technologies but also my eagerness to learn and adapt to emerging ones. I am deeply passionate about delivering exceptional user experiences, and my work is grounded in strict adherence to usability and accessibility standards. Driven by tenacity and a strong work ethic, I am poised to make meaningful contributions to any project. Let's collaborate for success!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('personalprofile')">Personal Profile</p>
+                    <p class="tab-links" onclick="opentab('language')">Language Known</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-end</span></li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li><span>coding skills</span></li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="personalprofile">
+                    <ul>
+                        <li>Date of birth  : 19/01/2003</li>
+                        <li>Gender         : Female</li>
+                        <li>Father's Name  : Mohan G</li>
+                        <li>Nationality     : Indian</li>
+                        <li>Marital Status : Single</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="language">
+                    <ul>
+                        <li>Tamil</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------education----->
+    <div id="education1">
+        <div class="container">
+            <h1 class="heading"><span>E</span>ducation</h1>
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Qualifications</h3>
+                    
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i>2024</div>
+                                <h3>Master Degree - MCA</h3>
+                                <p>Kongu Engineering College - Erode/Anna University<br> (Pursuing 1st year)</p>
+                            </div>
+                        </div>
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i>2023</div>
+                                <h3>Bachelor Degree - B.com(CA)</h3>
+                                <p>Kongu Arts and Science College - Erode/Bharathiyar University<br>
+                                (6.7 CGPA)</p>
+                            </div>
+                        </div>
+
+                    <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i>2020</div>
+                                <h3>12th Commerce with Computer Application</h3>
+                                <p>Vidhyaa Vikas Matric Higher Sec School - Tirupur/State Board<br>(89%)</p>
+                            </div>
+                        </div>
+
+
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i>2018</div>
+                                <h3>10th</h3>
+                                <p>Vidhyaa Vikas Matric Higher Sec School - Tirupur/State Board<br>(88%)</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------project---->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><span>My</span>Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Page Creation</h2>
+                    <p>Web Page creation for Meha International.
+                        The project transfers the mode of business from offline to online by creating a webpage.
+                      This project includes modules like Home,About us, Vision, Mission, Gallery ,Contact us.
+                This webpage developed by using Html,Css and Javascript.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Project Management System </h2>
+                    <p>This project is a comprehensive solution designed to optimize and streamline and tracking process within the organization
+                        This project addresses the limitations of existing systems by introducing a user-friendly platform that empowers administrators
+                        to efficiently create, assign, monitor tasks.
+                        
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!------------contact------->
+    <div id="contactme">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>soundaryasoundarya716@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6369433021</p>
+                
+                    <div class="social-icons">
+                        <a href="https://github.com/M-Soundarya"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/soundarya16"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="soundaryasoundarya716@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <br><br>
+                    <a href="new resume.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.left = "-200px";
+    }
+</script>
+   
+</body>
+</html>
